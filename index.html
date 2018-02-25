@@ -1,5 +1,8 @@
 <!--
-//TODO:: When focus timeline node is dragged, onfocusout never fired
+//TODO:: 
+- When focus timeline node is dragged, onfocusout never fired
+- put book selector modal as fixed
+- have a clear timeline button
 -->
 
 <!DOCTYPE html>
@@ -7,8 +10,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Draggable Test</title>
-  <link rel="stylesheet" href="../public/stylesheets/dragula.css">
-  <link rel="stylesheet" href="../public/stylesheets/draggable.css">
+  <link rel="stylesheet" href="public/stylesheets/dragula.css">
+  <link rel="stylesheet" href="public/stylesheets/draggable.css">
 </head>
 <body class="draggableContainer" id="draggableContainer" style="overflow:hidden">
   <section>
@@ -34,34 +37,34 @@
       <ul id="readerBook">
         <!--
         <li id="page1" class="page showPage">
-          <img src="../public/images/illustrations/The Haircut/1.jpg" alt="">
+          <img src="..public/images/illustrations/The Haircut/1.jpg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus eligendi cupiditate ratione ut corporis explicabo.</p>
         </li>
         <li id="page2" class="page">
-          <img src="../public/images/illustrations/The Haircut/2.jpg" alt="">
+          <img src="..public/images/illustrations/The Haircut/2.jpg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur.</p>
         </li>
         <li id="page3" class="page">
-          <img src="../public/images/illustrations/The Haircut/3.jpg" alt="">
+          <img src="..public/images/illustrations/The Haircut/3.jpg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt repellat, ut temporibus.</p>
         </li>
         <li id="page4" class="page">
-          <img src="../public/images/illustrations/The Haircut/4.jpg" alt="">
+          <img src="..public/images/illustrations/The Haircut/4.jpg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dicta totam in qui magnam quia quod quos facilis dolore facere!</p>
         </li>
         <li id="page5" class="page">
-          <img src="../public/images/illustrations/The Haircut/5.jpg" alt="">
+          <img src="..public/images/illustrations/The Haircut/5.jpg" alt="">
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit?</p>
         </li>
         -->
       </ul>
-        <img src="../public/images/pictograms/right-arrow.svg" alt="" class="turnPageButton" id="pageLeft" onclick="turnPage(currentPage-1)">
-        <img src="../public/images/pictograms/right-arrow.svg" alt="" class="turnPageButton" id="pageRight" onclick="turnPage(currentPage+1)">
+        <img src="public/images/pictograms/right-arrow.svg" alt="" class="turnPageButton" id="pageLeft" onclick="turnPage(currentPage-1)">
+        <img src="public/images/pictograms/right-arrow.svg" alt="" class="turnPageButton" id="pageRight" onclick="turnPage(currentPage+1)">
     </div>
     <div class="timelineContainer">
-      <img class="timelineButton" id="write_button" src="../public/images/pictograms/compose.svg" alt="" onclick="storyWriter();">
-      <img class="timelineButton" id="read_button" src="../public/images/pictograms/open-book.svg" alt="" onclick="storyReader();">
-      <img class="timelineButton" id="library_button" src="../public/images/pictograms/library.svg" alt="" onclick="openLibrary();">
+      <img class="timelineButton" id="write_button" src="public/images/pictograms/compose.svg" alt="" onclick="storyWriter();">
+      <img class="timelineButton" id="read_button" src="public/images/pictograms/open-book.svg" alt="" onclick="storyReader();">
+      <img class="timelineButton" id="library_button" src="public/images/pictograms/library.svg" alt="" onclick="openLibrary();">
       <ul class="timeline" id="timeline">
        <!-- <li class="timeline_node" id="timeline_node_1"></li> -->
       </ul>
@@ -73,17 +76,17 @@
     </div>
   </section>
 <!--
-<script src="../public/javascripts/interact.js"></script>
+<script src="..public/javascripts/interact.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.4/lib/draggable.bundle.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@shopify/draggable@1.0.0-beta.4/lib/draggable.bundle.legacy.js"></script>
 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.min.js"></script>
-<script src="../public/books/bonne-nuit-tinku.js"></script>
-<script src="../public/books/haircut.js"></script>
-<script src="../public/books/ma-maison.js"></script>
-<script src="../public/books/ma-meilluere-amie.js"></script>
-<script src="../public/books/perdu-et-trouve.js"></script>
-<script src="../public/javascripts/draggable.js"></script>
+<script src="public/books/bonne-nuit-tinku.js"></script>
+<script src="public/books/haircut.js"></script>
+<script src="public/books/ma-maison.js"></script>
+<script src="public/books/ma-meilluere-amie.js"></script>
+<script src="public/books/perdu-et-trouve.js"></script>
+<script src="public/javascripts/draggable.js"></script>
 </body>
 </html>
 
